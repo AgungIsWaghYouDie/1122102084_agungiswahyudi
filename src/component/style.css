@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Rata tengah untuk seluruh teks di body */
+  }
+  
+  .about-us {
+    width: 80%;
+    margin: 0 auto; /* Rata tengah untuk container */
+    padding: 20px;
+    border-radius: 22px;
+    background-color: #fff;
+  }
+  
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1,
+  p {
+    text-align: center;
+  }
+  
+  .team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .team-member {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .team-member .nama-jabatan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+  }
+  
+  .navbar .nav-link {
+    font-weight: bold; /* Membuat semua link tebal */
+  }
+  
